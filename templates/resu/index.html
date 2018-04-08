@@ -1,0 +1,328 @@
+<!doctype html>
+
+{% load staticfiles %}
+
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
+ 		<link href="https://fonts.googleapis.com/css?family=Cinzel|Lato" rel="stylesheet"> 
+
+        <!--For Plugins external css-->
+        <link rel="stylesheet" href="{% static 'css/plugins.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/linearicons-web-font.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/santeliascript-web-font.css' %}" />
+        <link rel="stylesheet" href="{% static 'css/lato-webfont.css' %}" />
+
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="{% static 'css/responsive.css' %}" />
+        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+        <script src="{% static 'js/vendor/modernizr-2.8.3-respond-1.4.2.min.js' %}"></script>
+    </head>
+    <body data-spy="scroll" data-target="#main-navbar">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
+		
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+					
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					
+                    <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="" /></a>
+                </div>
+				
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    
+                    <ul class="nav navbar-nav navbar-left hid"><i style="color:white;" class="fab fa-telegram"></i>
+
++49 176 2856 2906</ul>
+
+					
+					
+
+
+	
+                    <ul class="nav navbar-nav navbar-right">
+
+
+                        <li><a href="https://twitter.com/norvux_ev"><i style="color: white;" class="fab fa-twitter fa-2x"></i></a></li>
+
+                    	<li><a href="https://www.instagram.com/nor.vux/"><i style="color: white;" class="fab fa-instagram fa-2x"></i></a></li> 
+
+                        <li><a id="nv" href="#"><i style="color: white;" class="fa fa-mobile fa-2x"></i></a></li>
+
+
+
+                        <li><a href="#contact"><i style="color: white;" class="fa fa-envelope fa-2x"></i></a></li>
+
+                        <li><a href="#home"><i style="color: white;" class="fas fa-arrow-up fa-2x"></i></a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+		<!--Home page style-->
+		<header id="home" class="home">
+            <div class="overlay-img ">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="home-content text-center">
+								
+								<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
+									  <!-- Indicators -->
+									  <ol class="carousel-indicators">
+										<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+										<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+										<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+										<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+										<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+									  </ol>
+
+									  <!-- Wrapper for slides -->
+									  <div class="carousel-inner" role="listbox">
+									  
+										<div class="item active">
+											<h1>Welcome to Nord.Ev</h1>
+											<h5>Just a Right Web-Forge</h5>
+										</div>
+										
+										<div class="item">
+											<h1>Lightweight Web-sites</h1>
+											<h5>Don`t overload 
+											yourself</h5>
+										</div>
+										
+										<div class="item">
+											<h1>Unbelievable Bootstrap</h1>
+											<h5>Flexible, awesome Web-pages</h5>
+										</div>
+										
+										<div class="item">
+											<h1>Django supercharged</h1>
+											<h5>Fast as Hell</h5>
+										</div>
+
+										<div class="item">
+											<h1>Almost 24/7 support available</h1>
+											<h5>Neversleep Coffee Nights</h5>
+										</div>
+										
+
+										
+									  </div>
+
+									 
+								</div>
+								
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>	
+        </header>
+
+       
+        <section id="parallax" class="sections text-center" >
+			
+			<div class="heading-content" style="padding-top: 100px; padding-bottom: 100px; padding-left: auto; padding-right: auto; " >
+				<i class="fa fa-laptop fa-10x" aria-hidden="true"></i>
+
+				<h4>About Me</h4>
+				<div style="text-align: left; padding-top: 35px; ">
+				<p>Hi! I`m Alex, a freelance Web developer. I offer building web-pages and web-applications from scratch to deployment.</p>
+				<p>I argue for an idea that nothing could be much important than quality. My approach to the web-constructing is quite simple:
+				   Allways try to do it better! The ideal could seem to be unreachable, but nobody interferes You keep trying to reach it. 
+
+				<p>I am also a convinced adherent of KISS principle. Roughly speaking "Nothing will be broken down, if there is nothing to break."</p>
+
+				<p>Primarily I use standart pack of CSS+Bootstrap mixed up with a bit of JQuery for the Front-end and Django for the Back-end.
+				Nevertheless, I am allways open and ready for something new. It just depends on how much time will it take.</p>
+				<p>Well, generally I think that there are totally no limits or impossible things. There could only just be things You don`t know HOW to do them yet. Then, keep on learning.</p>
+
+				<p>I offer very flexible options, an individual approach to each and almost 24/7 online support (Unfortunatelly sometimes I just need to sleep).</p>
+				</div>
+			</div>
+			
+				
+
+        </section>	
+		
+		<div class="parallax-area" >
+
+						<div class="parallax-content">
+							<h5>Everything is possible</h5>
+						</div>
+					
+					<div class="img-overlay"></div>
+
+				</div>
+
+
+
+
+
+        <section id="portfolio" class="sections">
+
+        	
+
+
+
+
+			<div class="heading-content text-center" style="height: 100vh;">
+
+				
+			<div style="padding-top: 150px;padding-bottom: 100px;padding-right: auto;padding-left: auto; text-align: center;">
+
+				<span class="lnr lnr-file-empty">
+				<h4>Sample works</h4>
+				
+			</div>
+			
+			<div class="container">
+					
+					<div class="row" >
+					
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="portfolio-item">
+								<a class="portfolio-img" href="{% static 'images/pic01.jpg' %}"><img src="{% static 'images/pic01.jpg' %}" alt="" /></a>
+								<div class="img-overlay"></div>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="portfolio-item">
+								<a class="portfolio-img" href="{% static 'images/05.jpg' %}"><img src="{% static 'images/05.jpg' %}" alt="" /></a>
+								<div class="img-overlay"></div>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="portfolio-item">
+								<a class="portfolio-img" href="{% static 'images/background.jpg' %}"><img src="{% static 'images/background.jpg' %}" alt="" /></a>
+								<div class="img-overlay"></div>
+							</div>
+						</div>
+						
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="portfolio-item">
+								<a class="portfolio-img" href="{% static 'images/04.jpg' %}"><img src="{% static 'images/04.jpg' %}" alt="" /></a>
+								<div class="img-overlay"></div>
+							</div>
+						</div>
+						
+					</div>
+
+					
+
+			</div>	
+			
+        </section>
+	<section id="contact" class="">
+	 <div class="overlay-img sections">
+		<div class="container" style="padding-top: 125px">
+
+            <div class="heading-content text-center">
+               
+                <h3>Contact</h3>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+
+                    <form method='post' style='text-align: center; color:white;
+                    font-size: 25px; padding-bottom: 40px; ' >
+                    	{% csrf_token %}
+                    	<div class="col-md-12 col-sm-12 col-xs-12">
+                    	 	
+
+                    	 	<div class="form-group">
+                    			<input type="text" name="email" value="" placeholder="Email"/>
+                        	</div>
+                      
+                      
+                    		<div class="form-group">
+                    			<input type="text" name="subject" value=""  placeholder="Subject"/>
+ 							</div>
+ 					
+ 						
+                    		<div class="form-group">
+ 								<textarea type="text" name="message" value="" rows="6" placeholder="Message"></textarea>
+ 							</div>
+
+
+
+ 						</div>
+
+
+
+                        <div class="form-actions" style="padding-top: 40px; ">
+      					<button type="submit">Submit</button>
+      				
+  						<a href="resu/index.html"><button>Cancel</button></a>
+    					</div>
+
+
+
+    				</form>
+
+                </div>
+            </div>
+			
+			        <div class="row" >
+				<div class="copyright text-center" style="padding-top: 100px;">
+					<h5>Made with <i class="fa fa-coffee"></i> by norvux@protonmail.com </a><br/>2018</h5>
+				</div>
+			</div>
+			
+        </div>
+
+	</div>
+	</section>
+
+
+        <!--Footer-->
+        <footer>
+           
+        </footer>
+
+
+        <script src="{% static 'js/vendor/jquery-1.11.2.min.js' %}"></script>
+        <script src="{% static 'js/vendor/bootstrap.min.js' %}"></script>
+		
+
+		
+		<script src="{% static 'js/vendor/jquery.magnific-popup.min.js' %}"></script>
+		
+        <script src="{% static 'js/plugins.js' %}"></script>
+        <script src="{% static 'js/main.js' %}"></script>
+    </body>
+</html>
